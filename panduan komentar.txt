@@ -1,0 +1,30 @@
+Panduan Komentar:
+HTML Head:
+
+html
+Salin kode
+<!-- Menghubungkan ke file CSS eksternal -->
+Menambahkan file CSS eksternal untuk gaya umum.
+Tombol WhatsApp CSS:
+
+html
+Salin kode
+/* Gaya untuk tombol WhatsApp */
+Mengatur tampilan tombol WhatsApp dengan warna hijau khas WhatsApp, teks putih, dan posisi tetap di kanan bawah.
+Bagian HTML Utama:
+
+html
+Salin kode
+<!-- Bagian header -->
+<!-- Navigasi -->
+<!-- Bagian utama konten -->
+<!-- Formulir pendaftaran -->
+<!-- Bagian footer -->
+Setiap bagian dari halaman diberi komentar untuk memudahkan pemahaman struktur HTML.
+JavaScript untuk Tombol WhatsApp:
+
+html
+Salin kode
+<!-- Skrip JavaScript untuk tombol WhatsApp -->
+Skrip ini akan membuka aplikasi atau situs web WhatsApp ketika tombol diklik dengan nomor yang telah ditentukan.
+Gantilah 62xxxxxxxxxx dengan nomor WhatsApp yang sebenarnya dalam format internasional (tanpa tanda plus). Simpan perubahan ini dan buka file HTML di browser untuk melihat hasilnya.

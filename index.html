@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Contoh</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS untuk memusatkan konten */
+        .centered {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="centered">
+        <h1>Selamat Datang di Website Kami</h1>
+    </header>
+    <nav>
+        <ul class="centered">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Profil</a></li>
+            <li><a href="#subjects">Mata Pelajaran</a></li>
+            <li><a href="#news">Kabar</a></li>
+            <li><a href="#testimonials">Testimonial</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#registration">Registrasi</a></li>
+            <li><a href="#login">Masuk | Daftar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="centered">
+            <img src="image.png" alt="Gambar Bimbel" class="main-image">
+            <h2>Bimbingan Belajar di Rumah</h2>
+            <p>PAUD, TK, SD, SMP, SMA, Umum. Semua berpeluang menjadi cerdas dengan menghadirkan guru les di rumah.</p>
+            <button onclick="location.href='#registration'">Daftar Sekarang</button>
+            <p class="highlight">Belcourse adalah les privat yang tepat untuk meningkatkan dan mengembangkan kemampuan bahasa inggris dan bahasa arab al-quran siswa dimana sistem pembelajaran dilakukan secara face to face sehingga siswa dengan mudah memahami materi pelajaran dan dapat menjadi solusi bagi mereka yang menemukan kesulitan dalam menyelesaikan tugas sekolah atau kesulitan dalam memahami pelajaran tertentu.</p>
+        </section>
+        <section id="about" class="centered">
+            <h2>Profil</h2>
+            <p>Informasi tentang kami.</p>
+        </section>
+        <section id="subjects" class="centered">
+            <h2>Mata Pelajaran</h2>
+            <p>Kami menawarkan bimbingan belajar untuk berbagai mata pelajaran:</p>
+            <ul>
+                <li>Bahasa Inggris</li>
+                <li>Bahasa Arab Al-Quran</li>
+            </ul>
+        </section>
+        <section id="news" class="centered">
+            <h2>Kabar</h2>
+            <p>Berita terbaru dan pengumuman.</p>
+        </section>
+        <section id="testimonials" class="centered">
+            <h2>Testimonial</h2>
+            <p>Berikut adalah beberapa testimonial dari siswa kami:</p>
+            <blockquote>
+                <p>"Bimbingan di sini sangat membantu saya dalam memahami materi pelajaran." - Siswa A</p>
+            </blockquote>
+            <blockquote>
+                <p>"Guru-gurunya sangat profesional dan berpengalaman." - Siswa B</p>
+            </blockquote>
+        </section>
+        <section id="gallery" class="centered">
+            <h2>Gallery</h2>
+            <p>Lihat beberapa momen kegiatan belajar mengajar kami:</p>
+            <div class="gallery">
+                <img src="image1.png" alt="Kegiatan 1">
+                <img src="image2.png" alt="Kegiatan 2">
+                <img src="image3.png" alt="Kegiatan 3">
+            </div>
+        </section>
+        <section id="registration">
+            <h2>Registrasi</h2>
+            <form class="centered">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="phone">Nomor Telepon:</label>
+                <input type="text" id="phone" name="phone" required placeholder="Masukkan nomor di sini"><br><br>
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Tulis pesan Anda di sini"></textarea><br><br>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+        <section id="login" class="centered">
+            <h2>Masuk | Daftar</h2>
+            <p>Formulir login dan pendaftaran.</p>
+        </section>
+        <section id="advantages" class="centered">
+            <h2>Keunggulan</h2>
+            <p>Mengapa harus belajar di bimbel Bahasa Inggris Belcourse?</p>
+            <ul>
+                <li>Pengajaran berkualitas dengan metode yang efektif.</li>
+                <li>Guru berpengalaman dan profesional.</li>
+                <li>Fasilitas belajar yang lengkap dan nyaman.</li>
+                <li>Materi pelajaran yang sesuai dengan kurikulum terbaru.</li>
+                <li>Harga yang kompetitif dan terjangkau.</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="centered">
+        <p>&copy; 2024 Website Contoh. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <!-- Tombol WhatsApp -->
+    <button id="whatsappButton">Hubungi Kami di WhatsApp</button>
+
+    <!-- Skrip JavaScript untuk tombol WhatsApp -->
+    <script>
+        document.getElementById("whatsappButton").onclick = function() {
+            var whatsappNumber = "6281356640755"; // Ganti dengan nomor WhatsApp Anda
+            var whatsappUrl = "https://wa.me/" + whatsappNumber;
+            window.open(whatsappUrl, "_blank"); // Membuka link di tab baru
+        }
+    </script>
+</body>
+</html>
